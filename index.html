@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market for Organic foods</title>
+
+    <!-- Google web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="../test-7/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="../test-7/lib/lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="../test-7/lib/owlcarousel/assets/owl.carousel.css">
+
+    <!-- custimized bootstrap -->
+    <link rel="stylesheet" href="../test-7/css/bootstrap.min.css">
+
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="../test-7/css/style.css">
+
+</head>
+<body>
+    <div class="container-fluid px-0 fixed-top bg-white">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Fruitables</a>
+              <button class="border border-3 rounded navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item p-2 p-lg-3">
+                    <a class="nav-link  active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item p-2 p-lg-3">
+                    <a class="nav-link " href="#">Shop</a>
+                  </li>
+                  <li class="nav-item p-2 p-lg-3">
+                    <a class="nav-link" href="#">Shop Details</a>
+                  </li>
+                  <li class="nav-item p-2 p-lg-3 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Card</a></li>
+                      <li><a class="dropdown-item" href="#">Checkout</a></li>
+                      <li><hr class="dropdown-item">Testimonial</li>
+                      <li><a class="dropdown-item" href="#">404 pages</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item p-2 p-lg-3">
+                    <a class="nav-link" aria-disabled="true">contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex m-3 me-5 d-none d-lg-block" role="search">
+                    <a href="" class="btn-search btn border btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                 <a href="" class="lock position-relative me-4 my-auto">
+                    <i class="fa-solid fa-lock"></i>
+                 </a>
+                   <a href="" class="user my-auto">
+                    <i class="fa-regular fa-user"></i>
+                   </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="container-fluid py-5 mb-5 hero-header">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-12 col-lg-7">
+                    <h4 class="mb-3 ">100% Organic Foods</h4>
+                    <h1 class="mb-5 display-3 ">Organic Veggies & Fruits Foods</h1>
+                    <div class="position-relative mx-auto">
+                        <input class="form-control border-2  w-75 py-3 px-4 rounded-pill" type="number" placeholder="Search">
+                        <button type="submit" class="submit btn btn-primary border-2 py-3 px-4 position-absolute rounded-pill text-white h-100" style="top: 0; right: 25%;">Submit Now</button>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                    <div id="carouselId" class="carousel slide position-relative" data-bs-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active rounded">
+                                <img src="img/hero-img-1.png" class="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide">
+                                <a href="#" class="btn px-4 py-2 text-white rounded">Fruites</a>
+                            </div>
+                            <div class="carousel-item rounded">
+                                <img src="img/hero-img-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Second slide">
+                                <a href="#" class="btn px-4 py-2 text-white rounded">Vegitables</a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid featurs py-5">
+        <div class="container p-5">
+            <div class="row g-4">
+                <div class="col">
+                  <div class="shams col-md-6 col-lg-3">
+                  <div class="featurs-item text-center rounded bg-light p-4">
+                    <div class="featurs-icon btn-square rounded-circle mb-5 mx-auto">
+                        <i class="fa-solid fa-car-side fa-3x text-white"></i>
+                    </div>
+                    <div class="featurs-content text-center">
+                      <h5>Free Shipping</h5>
+                      <p class="mb-0">Free on order over $300</p>
+                    </div>
+                  </div>
+                    </div>     
+                </div>
+                <div class="col">
+                  <div class="shams col-md-6 col-lg-3">
+                   <div class="featurs-item text-center rounded bg-light p-4">
+                    <div class="featurs-icon btn-square rounded-circle mb-5 mx-auto">
+                    <i class="fa-solid fa-user-shield fa-3x text-white"></i>
+                    </div>
+                    <div class="featurs-content text-center">
+                        <h5>Security Payment</h5>
+                        <p class="mb-0">100% security payment</p>
+                      </div>
+                   </div>        
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="shams col-md-6 col-lg-3">
+                   <div class="featurs-item text-center rounded bg-light p-4">
+                    <div class="featurs-icon btn-square rounded-circle mb-5 mx-auto">
+                    <i class="fa-solid fa-arrow-right-arrow-left text-white fa-3x"></i>
+                    </div>
+                    <div class="featurs-content text-center">
+                        <h5>30 Day Return</h5>
+                        <p class="mb-0">30 day money guarantee</p>
+                      </div>
+                   </div>            
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="shams col-md-6 col-lg-3">
+                        <div class="featurs-item text-center rounded bg-light p-4">
+                         <div class="featurs-icon btn-square rounded-circle  mb-5 mx-auto">
+                            <i class="fa-solid fa-phone fa-3x text-white"></i>
+                         </div>
+                         <div class="featurs-content text-center">
+                            <h5>24/7 Support</h5>
+                            <p class="mb-0">support every time fast</p>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+              </div> 
+        </div>
+    </div>
+    <div class="container-fluid fruite py-5">
+        <div class="container py-5">
+            <div class="tab-class text-center">
+                <div class="row g-4">
+                    <div class="col-lg-4 text-start">
+                        <h1>Our Organic Foods</h1>
+                    </div>
+                    <div class="col-lg-8 text-center">
+                        <ul class="nav nav-pills d-inline-flex text-center mb-5" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Product</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Vegitables</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Fruits</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Bread</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Meat</button>
+                        </li>
+                      </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-content mb-5" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="row g-4">
+                <div class="col-lg-12">
+                    <div class="row g-4 ms-5 me-5">
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/fruite-item-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Fruits</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3"><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/fruite-item-2.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Fruits</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3 "><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/fruite-item-3.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Fruits</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3"><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/fruite-item-4.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Fruits</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3"><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/fruite-item-5.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Fruits</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3"><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/fruite-item-6.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Fruits</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3"><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/fruite-item-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Fruits</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3"><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/fruite-item-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Fruits</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3"><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+        </div>
+      </div>
+      <div class="container-fluid service py-5">
+        <div class="container py-5">
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <a href="">
+                        <div class="service-item rounded border">
+                            <img src="../test-7/img/featur-1.jpg" class="img-fluid rounded-top w-100">
+                            <div class="px-5 rounded-bottom">
+                                <div class="service-content text-center p-4 rounded">
+                                   <h5 class="text-white">Fresh Apples</h5>
+                                   <h3 class="mb-0">20% OFF</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="">
+                        <div class="service-item rounded border">
+                            <img src="../test-7/img/featur-2.jpg" class="img-fluid rounded-top w-100">
+                            <div class="px-4 rounded-bottom">
+                                <div class="service-content text-center p-4 rounded">
+                                    <h5 class="text-white">Tasty Fruits</h5>
+                                    <h3 class="mb-0">Free Delivery</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="">
+                        <div class="service-item rounded border">
+                            <img src="../test-7/img/featur-3.jpg" class="img-fluid rounded-top w-100">
+                            <div class="px-4 rounded-bottom">
+                                <div class="service-content text-center p-4 rounded">
+                                    <h5 class="text-white">Fresh Apples</h5>
+                                    <h3 class="mb-0">20% OFF</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+    <div class="container-fluid testmionial py-5">
+        <div class="container py-5">
+        </div>
+    </div>
+
+    <div class="container-fluid fruite py-5">
+        <div class="container py-5">
+            <div class="tab-class text-center">
+                <div class="row g-4">
+                    <div class="col-lg-4 text-start">
+                        <h1>Our Organic Vesgitables foods</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-content mb-5" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="row g-4">
+                <div class="col-lg-12">
+                    <div class="row g-4 ms-5 me-5">
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/vegetable-item-4.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Vegitables</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3"><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/vegetable-item-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Vegitables</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3 "><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/vegetable-item-6.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Vegitables</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3"><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="rounded position-relative fruite-item">
+                                <div class="fruite-img">
+                                  <img src="../test-7/img/vegetable-item-5.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                </div>
+                                <div class="text-white px-3 py-1 rounded position-absolute stiker">Vegitables</div>
+                                <div class="p-4 rounded-bottom">
+                                    <h4>Oranges</h4>
+                                    <p>yala el talata b 10</p>
+                                </div>
+                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                    <a href="#" class="btn rounded-pill px-3"><i class="fa-solid fa-bag-shopping"></i> Add to cart</a>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+               </div>
+        </div>
+      </div>
+      <div class="container-fluid banner my-5">
+        <div class="container py-5">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6">
+                    <div class="py-4">
+                        <h1 class="display-3 text-white">Fresh Exotic Fruits</h1>
+                        <p class="fw-normal display-3 text-dark mb-4">in Our Store</p>
+                        <p class="mb-4 text-dark">The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p>
+                        <a href="" class="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5">Buy</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <img src="../test-7/img/baner-1.png" alt="" class="img-fluid w-100 rounded">
+                        <div class="d-flex justify-content-center price align-items-center bg-white rounded-circle">
+                            <h1>1</h1>
+                            <div class="d-flex flex-column">
+                                <span class="h2 mb-0">50$</span>
+                                <span class="h3 text-muted mb-0">kg</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="container-fluid py-5">
+        <div class="container">
+            <div class="bg-light">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter bg-white rounded py-5">
+                            <i class="fa-solid fa-user-group"></i>
+                            <h4>Satsified Customer</h4>
+                            <h1>1963</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter bg-white rounded py-5">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <h4>Quality Of Service</h4>
+                            <h1>99%</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter bg-white rounded py-5">
+                            <i class="fa-solid fa-certificate"></i>
+                            <h4>Quality Certificate</h4>
+                            <h1>54</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter bg-white rounded py-5">
+                            <i class="fa-solid fa-user"></i>
+                            <h4>Available Product</h4>
+                            <h1>650</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="container-fluid testimonial py-5">
+        <div class="container py-5">
+            <div class="testimonial-header text-center">
+                <h4>Our testmeimonial</h4>
+                <h1>Our Client Saying!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                    <div class="position-relative">
+                        <i class="fa-solid fa-quote-right position-absolute" style="bottom: 30px; right: 0;"></i>
+                        <div class="mb-4 pb-4 border-bottom">
+                            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap">
+                            <div class="rounded">
+                                <img src="../test-7/img/testimonial-1.jpg" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                            </div>
+                            <div class="ms-4 d-block">
+                                <h4 class="text-dark">Client Name</h4>
+                                <p class="m-0 pb-3">Profession</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                    <div class="position-relative">
+                        <i class="fa-solid fa-quote-right position-absolute" style="bottom: 30px; right: 0;"></i>
+                        <div class="mb-4 pb-4 border-bottom">
+                            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap">
+                            <div class="rounded">
+                                <img src="../test-7/img/testimonial-1.jpg" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                            </div>
+                            <div class="ms-4 d-block">
+                                <h4 class="text-dark">Client Name</h4>
+                                <p class="m-0 pb-3">Profession</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                    <div class="position-relative">
+                        <i class="fa-solid fa-quote-right position-absolute" style="bottom: 30px; right: 0;"></i>
+                        <div class="mb-4 pb-4 border-bottom">
+                            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap">
+                            <div class="rounded">
+                                <img src="../test-7/img/testimonial-1.jpg" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                            </div>
+                            <div class="ms-4 d-block">
+                                <h4 class="text-dark">Client Name</h4>
+                                <p class="m-0 pb-3">Profession</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="container-fluid text-white-50 footer pt-5 mt-5">
+        <div class="container py-5">
+            <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+                <div class="row g-4">
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <h1 class="mb-0">Fruitables</h1>
+                            <p class="mb-0">Fresh products</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative mx-auto">
+                            <input class="form-control border-0 w-100 py-3 px-4 rounded-pill" type="text" placeholder="Your Email">
+                            <button type="submit" class="btn border-0 py-3 px-4 position-absolute rounded-pill text-white" style="top: 0; right: 0;">Subscribe Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="d-flex justify-content-end pt-3">
+                            <a class="btn link me-2 btn-md-square rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn link me-2 btn-md-square rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn link me-2 btn-md-square rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn link btn-md-square rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="text-light mb-3">Why People Like us!</h4>
+                        <p class="text-muted mb-4">typesetting, remaining essentially unchanged. It was 
+                            popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+                        <a href="" class="btn py-2 px-4 rounded-pill fare">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex flex-column text-start footer-item">
+                        <h4 class="text-light mb-3">Shop Info</h4>
+                        <a class="text-muted btn-link" href="">About Us</a>
+                        <a class="text-muted btn-link" href="">Contact Us</a>
+                        <a class="text-muted btn-link" href="">Privacy Policy</a>
+                        <a class="text-muted btn-link" href="">Terms & Condition</a>
+                        <a class="text-muted btn-link" href="">Return Policy</a>
+                        <a class="text-muted btn-link" href="">FAQs & Help</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex flex-column text-start footer-item">
+                        <h4 class="text-light mb-3">Account</h4>
+                        <a class="btn-link" href="">My Account</a>
+                        <a class="btn-link" href="">Shop details</a>
+                        <a class="btn-link" href="">Shopping Cart</a>
+                        <a class="btn-link" href="">Wishlist</a>
+                        <a class="btn-link" href="">Order History</a>
+                        <a class="btn-link" href="">International Orders</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="text-light mb-3">Contact</h4>
+                        <p class="text-muted">Address: 1429 Netus Rd, NY 48247</p>
+                        <p class="text-muted">Email: Example@gmail.com</p>
+                        <p class="text-muted">Phone: +0123 4567 8910</p>
+                        <p class="text-muted">Payment Accepted</p>
+                        <img src="img/payment.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        Designed By <a class="border-bottom" href="https://Fahmy.com">fahmy</a> Distributed By <a class="border-bottom" href="https://fahmniko.com">fahmniko</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn border-3 rounded-circle back-to-top"><i class="fa-solid fa-arrow-right"></i></a> 
+    <script src="../test-7/js/main.js"></script>
+</body>
+</html>
